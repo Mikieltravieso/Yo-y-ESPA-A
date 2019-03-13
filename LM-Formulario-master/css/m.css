@@ -1,0 +1,268 @@
+body,html{
+	background-image:url("../img/Fondo.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;	
+}
+
+/*Página del formulario*/
+#icono{
+	position:relative;
+	text-align:center;
+	background-color:#1a1e23;
+	color:white;
+	width:25%;
+	height:25%;
+	margin-left:36%;
+	margin-right:40%;
+	margin-top:5%;
+	border-width:4.5px;
+	border-style:groove;
+	border-color:white;
+}
+
+#logo{
+	position:relative;
+	width:100%;
+	height:100%;
+	margin-right:5%;
+	margin-top:5%;
+	
+	margin-bottom:5%;	
+}
+
+#preguntas{
+	margin-top:10%;
+	
+	position: absolute;
+	
+	
+	background-color:#1a1e23;
+	
+	color:white;
+	width:100%;
+}
+
+#formulario{
+	height:100%;
+	width:100%;
+}
+
+
+
+select{
+	margin-left:5%;
+	width:90%;
+	font-size:6vw;
+}
+
+input{
+	margin-left:5%;
+	width:90%;
+	font-size:6vw;
+}
+
+checkbox{
+	margin-left:5%;
+	
+}
+
+.tipos{
+	
+	font-size:6vw;
+}
+
+#pregunta1{
+	border-bottom:3px groove white;
+	border-top:3px groove white;
+	height:8.5%;
+}
+
+#pregunta2{
+	border-bottom:3px groove white;
+	
+}
+
+#pregunta3{
+	border-bottom:3px groove white;
+	
+}
+
+#pregunta4{
+	border-bottom:3px groove white;
+	height:8.5%;
+}
+
+#pregunta5{
+	border-bottom:3px groove white;
+	height:8.5%;
+}
+
+#pregunta6{
+	border-bottom:3px groove white;
+	height:8.5%;
+}
+
+#pregunta7{
+	border-bottom:3px groove white;
+	height:8.5%;
+}
+
+#pregunta8{
+	border-bottom:3px groove white;
+	height:8.5%;
+}
+
+#pregunta9{
+	border-bottom:3px groove white;
+	height:8.5%;
+}
+
+#pregunta10{
+	border-bottom:3px groove white;
+	height:8.5%;
+	
+}
+
+#boton{	
+	height:8.5%;
+}
+
+h3{
+	margin-top:1%;
+	margin-left:3.5%;
+	margin-right:3.5%;
+}
+
+#contenedor{
+	display:none;
+	border-bottom:7.5px;
+	border-top:7.5px;
+	position: absolute;
+	border-style:groove;
+	border-color:white;
+	background-color:#1a1e23;
+	color:white;
+	margin-top:10%;
+	font-size:7vw;
+	width:100%;
+}
+
+h4{
+	margin-left:2%;
+	margin-top:2%;
+}
+input[type=checkbox],[type=radio]{
+	width:30px;
+	height:25px;
+	vertical-align:-3px;
+	
+}
+
+
+/*Página principal*/
+#cabecera{
+	position:relative;
+	text-align:center;
+	background-color:#1a1e23;
+	color:white;
+	width:25%;
+	height:25%;
+	margin-left:37%;
+	margin-right:40%;
+	margin-top:3%;
+	border-width:4.5px;
+	border-style:groove;
+	border-color:white;
+}
+#logo2{
+	position:relative;
+	width:90%;
+	height:90%;
+	margin-right:5%;
+	margin-top:5%;
+	margin-left:5%;
+	margin-bottom:5%;	
+}
+#menu{
+	width:100%;
+	
+	
+	
+}
+ul {
+	padding:0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #1a1e23;
+	font-size:7vw;
+	border-width:4.5px;
+	border-style:groove;
+	border-color:white;
+}
+#infobot{
+	background-color:#525151;
+}
+li {
+	float: left;
+	cursor: pointer;
+	display: block;
+	color: white;
+	text-align: center;
+	padding:1%;
+	
+	
+}
+#informacion{
+	
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color: #1a1e23;
+	font-size:7vw;
+	color:white;
+	border-width:4.5px;
+	border-style:groove;
+	border-color:white;
+}
+#examen{
+	display:none;
+	width:100%;
+	padding:0;
+	margin:0;
+	background-color: #1a1e23;
+	font-size:7vw;
+	color:white;
+	border-width:4.5px;
+	border-style:groove;
+	border-color:white;
+}
+#about{
+	display:none;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color: #1a1e23;
+	font-size:7vw;
+	color:white;
+	border-width:4.5px;
+	border-style:groove;
+	border-color:white;
+}
+#examenboton{
+	margin-left:33%;
+	color:#CFCFCF;
+}
+#volver{
+	margin-left:10%;
+	margin-bottom:5%;
+	
+	
+}
+h2{
+	margin:0;
+	padding-left:5%;
+	padding-top:1.5%;
+	
+	
+}

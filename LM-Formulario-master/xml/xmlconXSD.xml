@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd.xsd">
+	<question>
+		<type>text</type>
+		<title>¿Cual es el nombre de la ciudad principal?</title>
+		<answer>bocasucia</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>¿Como se llama la moneda de este mundo?</title>
+		<answer>geo</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>¿Como se llama la chica con la que peleamos varias veces a lo largo del juego?</title>
+		<option>Iselda</option>
+		<option>Hornet</option> 
+		<option>Reina</option>
+		<option>Maya</option>
+		<answer>1</answer> 
+	</question>
+	<question>
+		<type>select</type>
+		<title>¿Cual es el nombre del "Todopoderoso"?</title>
+		<option>Zote</option>
+		<option>Alvaro</option> 
+		<option>Sly</option>
+		<option>Tiso</option>
+		<answer>0</answer> 
+	</question>		 
+	<question>
+		<type>multiple</type>
+		<title>¿Cuales son los nombres de los maestros que te enseñan nuevos ataques de tu arma? </title>
+		<option>Mato</option>
+		<option>Oro</option> 
+		<option>Dhem</option> 
+		<option>Sheo</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>¿Cuales son todas las magias que podemos conseguir?</title>
+		<option>Espíritu vengativo</option>
+		<option>Salto desolador</option> 
+		<option>Espectros aulladores</option> 
+		<option>Explosión de almas</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>¿Cuales de los siguientes enemigos son Jefes?</title>
+		<option>Tirano de almas</option>
+		<option>Goam</option> 
+		<option>Sombra</option> 
+		<option>Falso caballero</option>
+		<answer>0</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>¿Cuales de las siguientes zonas existen en el mundo de Hollow Knight?</title>
+		<option>Caminos del silencio</option>
+		<option>Ciudad de lagrimas</option> 
+		<option>Sendero verde</option> 
+		<option>Páramos desolados</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question >
+		<type>radio</type>
+		<title>¿Que arma utiliza el protagonista de este juego?</title>
+		<option>Una espada</option>
+		<option>Una aguja</option> 
+		<option>Una lanza</option> 
+		<option>Un arco</option>
+		<answer>1</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>¿Como se llama el objeto que te permite hacer un doble salto?</title>
+		<option>Capa de polilla</option>
+		<option>Alas de monarca</option> 
+		<option>Lagrima de isma</option> 
+		<option>Corazón de cristal</option>
+		<answer>1</answer>		  
+	</question>		 
+</questions>	

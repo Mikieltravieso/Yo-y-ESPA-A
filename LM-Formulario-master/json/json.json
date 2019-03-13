@@ -1,0 +1,118 @@
+{
+  "questions": {
+    "question": [
+      {
+        "type": "text",
+        "title": "¿Cual es el nombre de la ciudad principal?",
+        "answer": "Bocasucia"
+      },
+      {
+        "type": "text",
+        "title": "¿Como se llama la moneda de este mundo?",
+        "answer": "Geo"
+      },
+      {
+        "type": "select",
+        "title": "¿Como se llama la chica con la que peleamos varias veces a lo largo del juego?",
+        "option": [
+          "Iselda",
+          "Hornet",
+          "Reina",
+          "Maya"
+        ],
+        "answer": "1"
+      },
+      {
+        "type": "select",
+        "title": "¿Cual es el nombre del \"Todopoderoso\"?",
+        "option": [
+          "Zote",
+          "Alvaro",
+          "Sly",
+          "Tiso"
+        ],
+        "answer": "0"
+      },
+      {
+        "type": "multiple",
+        "title": "¿Cuales son los nombres de los maestros que te enseñan nuevos ataques de tu arma? ",
+        "option": [
+          "Mato",
+          "Oro",
+          "Dhem",
+          "Sheo"
+        ],
+        "answer": [
+          "0",
+          "1",
+          "3"
+        ]
+      },
+      {
+        "type": "multiple",
+        "title": "¿Cuales son todas las magias que podemos conseguir?",
+        "option": [
+          "Espíritu vengativo",
+          "Salto desolador",
+          "Espectros aulladores",
+          "Explosión de almas"
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "title": "¿Cuales de los siguientes enemigos son Jefes?",
+        "option": [
+          "Tirano de almas",
+          "Goam",
+          "Christian",
+          "Falso caballero"
+        ],
+        "answer": [
+          "0",
+          "3"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "title": "¿Cuales de las siguientes zonas existen en el mundo de Hollow Knight?",
+        "option": [
+          "Caminos del silencio",
+          "Ciudad de lagrimas",
+          "Sendero verde",
+          "Páramos desolados"
+        ],
+        "answer": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "type": "radio",
+        "title": "¿Que arma utiliza el protagonista de este juego?",
+        "option": [
+          "Una espada",
+          "Una aguja",
+          "Una lanza",
+          "Un arco"
+        ],
+        "answer": "1"
+      },
+      {
+        "type": "radio",
+        "title": "¿Como se llama el objeto que te permite hacer un doble salto?",
+        "option": [
+          "Capa de polilla",
+          "Alas de monarca",
+          "Lagrima de isma",
+          "Corazón de cristal"
+        ],
+        "answer": "1"
+      }
+    ]
+  }
+}

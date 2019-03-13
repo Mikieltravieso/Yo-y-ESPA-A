@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "dtd.dtd">
+<questions>
+	<question>
+		<type>text</type>
+		<title>¿Como se llama el actual presidente de España?</title>
+		<answer>Pedro</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>¿De que color es un arbol?</title>
+		<answer>Marron y verde</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>¿Como me llamo?</title>
+		<option>Isaac</option>
+		<option>Miki/option> 
+		<option>Fran</option>
+		<option>Samu</option>
+		<answer>1</answer> 
+	</question>
+<question>
+		<type>select</type>
+		<title>¿Cuanto es 2+3?</title>
+		<option>5</option>
+		<option>6</option> 
+		<option>4</option>
+		<option>3</option>
+		<answer>0</answer> 
+	</question>		 
+	<question>
+		<type>multiple</type>
+		<title>¿Que colores tiene la bandera de España? </title>
+		<option>Rojo</option>
+		<option>Amarillo</option> 
+		<option>Verde</option> 
+		<option>Azul</option>
+		<answer>0</answer>
+		<answer>1</answer>	
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>¿Que palabra existe?</title>
+		<option>Hola</option>
+		<option>Zapato</option> 
+		<option>Armario</option> 
+		<option>Peñajerentes</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>¿Cuales son mis colores favoritos?</title>
+		<option>Negro</option>
+		<option>Azul</option> 
+		<option>Amarillo</option> 
+		<option>Blanco</option>
+		<answer>0</answer>
+		<answer>3</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>¿A quien odio muchisimo?</title>
+		<option>A nadie</option>
+		<option>A ti</option> 
+		<option>A ella</option> 
+		<option>A el</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question >
+		<type>radio</type>
+		<title>¿Que arma usaria para matarte?</title>
+		<option>Una espada</option>
+		<option>Una aguja</option> 
+		<option>Una lanza</option> 
+		<option>Un arco</option>
+		<answer>1</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>¿Me gusta como explicas?</title>
+		<option>NO</option>
+		<option>NO</option> 
+		<option>NO</option> 
+		<option>NO</option>
+		<answer>1</answer>		  
+	</question>		 
+</questions>			
