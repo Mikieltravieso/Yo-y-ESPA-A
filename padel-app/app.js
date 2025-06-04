@@ -1,64 +1,48 @@
-const courts = JSON.parse(localStorage.getItem('courts') || '[]');
-const matches = JSON.parse(localStorage.getItem('matches') || '[]');
+const reservations = JSON.parse(localStorage.getItem('reservations') || '[]');
 
-const courtForm = document.getElementById('court-form');
-const courtList = document.getElementById('court-list');
-const matchForm = document.getElementById('match-form');
-const matchList = document.getElementById('match-list');
-const matchCourtSelect = document.getElementById('match-court');
+const reservationForm = document.getElementById('reservation-form');
+const reservationList = document.getElementById('reservation-list');
+const timeSelect = document.getElementById('reservation-time');
 
 function saveData() {
-    localStorage.setItem('courts', JSON.stringify(courts));
-    localStorage.setItem('matches', JSON.stringify(matches));
+    localStorage.setItem('reservations', JSON.stringify(reservations));
 }
 
-function renderCourts() {
-    courtList.innerHTML = '';
-    matchCourtSelect.innerHTML = '';
-    courts.forEach((court, index) => {
-        const li = document.createElement('li');
-        li.textContent = court.name + ' - ' + court.location;
-        courtList.appendChild(li);
-
+function renderTimes() {
+    const times = [
+        '08:00','09:00','10:00','11:00','12:00','13:00',
+        '14:00','15:00','16:00','17:00','18:00','19:00','20:00'
+    ];
+    times.forEach(t => {
         const option = document.createElement('option');
-        option.value = index;
-        option.textContent = court.name;
-        matchCourtSelect.appendChild(option);
+        option.value = t;
+        option.textContent = t;
+        timeSelect.appendChild(option);
     });
 }
 
-function renderMatches() {
-    matchList.innerHTML = '';
-    matches.forEach(match => {
+function renderReservations() {
+    reservationList.innerHTML = '';
+    reservations.forEach(res => {
         const li = document.createElement('li');
-        const court = courts[match.court];
-        li.textContent = `${match.date} - ${match.player1} vs ${match.player2} @ ${court ? court.name : 'Pista'}`;
-        matchList.appendChild(li);
+        li.textContent = `${res.court} - ${res.time} - ${res.name}`;
+        reservationList.appendChild(li);
     });
 }
 
-courtForm.addEventListener('submit', e => {
+reservationForm.addEventListener('submit', e => {
     e.preventDefault();
-    const name = document.getElementById('court-name').value;
-    const location = document.getElementById('court-location').value;
-    courts.push({ name, location });
+    const courtInput = document.querySelector('input[name="court"]:checked');
+    if (!courtInput) return;
+    const court = courtInput.value;
+    const time = timeSelect.value;
+    const name = document.getElementById('reservation-name').value;
+    reservations.push({ court, time, name });
     saveData();
-    renderCourts();
-    courtForm.reset();
+    renderReservations();
+    reservationForm.reset();
+    courtInput.checked = false;
 });
 
-matchForm.addEventListener('submit', e => {
-    e.preventDefault();
-    const player1 = document.getElementById('player1').value;
-    const player2 = document.getElementById('player2').value;
-    const date = document.getElementById('match-date').value;
-    const courtIndex = matchCourtSelect.value;
-    matches.push({ player1, player2, date, court: courtIndex });
-    saveData();
-    renderMatches();
-    matchForm.reset();
-});
-
-// Initial render
-renderCourts();
-renderMatches();
+renderTimes();
+renderReservations();

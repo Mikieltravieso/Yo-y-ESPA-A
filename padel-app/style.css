@@ -33,3 +33,24 @@ li {
     padding: 0.5rem;
     border-bottom: 1px solid #ccc;
 }
+.court-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.court {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.court input {
+    margin-bottom: 0.5rem;
+}
+
+.court img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
