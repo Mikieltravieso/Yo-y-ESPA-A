@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form input, form select, form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.court-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.court {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.court input {
+    margin-bottom: 0.5rem;
+}
+
+.court img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

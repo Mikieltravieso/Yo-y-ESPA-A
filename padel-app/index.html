@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Pista de Pádel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Reserva tu Pista</h1>
+
+    <section id="courts">
+        <h2>Elige una Pista</h2>
+        <div class="court-list">
+            <label class="court">
+                <input type="radio" name="court" value="Pista 1" required>
+                <img src="https://picsum.photos/seed/court1/300/200" alt="Pista 1">
+                <span>Pista 1</span>
+            </label>
+            <label class="court">
+                <input type="radio" name="court" value="Pista 2" required>
+                <img src="https://picsum.photos/seed/court2/300/200" alt="Pista 2">
+                <span>Pista 2</span>
+            </label>
+            <label class="court">
+                <input type="radio" name="court" value="Pista 3" required>
+                <img src="https://picsum.photos/seed/court3/300/200" alt="Pista 3">
+                <span>Pista 3</span>
+            </label>
+            <label class="court">
+                <input type="radio" name="court" value="Pista 4" required>
+                <img src="https://picsum.photos/seed/court4/300/200" alt="Pista 4">
+                <span>Pista 4</span>
+            </label>
+        </div>
+    </section>
+
+    <section id="reservation-section">
+        <h2>Reserva</h2>
+        <form id="reservation-form">
+            <select id="reservation-time" required>
+                <option value="">Hora</option>
+            </select>
+            <input type="text" id="reservation-name" placeholder="Nombre" required>
+            <button type="submit">Reservar</button>
+        </form>
+        <ul id="reservation-list"></ul>
+    </section>
+
+<script src="app.js"></script>
+</body>
+</html>
