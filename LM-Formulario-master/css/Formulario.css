@@ -207,14 +207,34 @@ ul {
 	background-color:#525151;
 }
 li {
-	float: left;
-	cursor: pointer;
-	display: block;
-	color: white;
-	text-align: center;
-	padding:1%;
-	
-	
+        float: left;
+        cursor: pointer;
+        display: block;
+        color: white;
+        text-align: center;
+        padding:1%;
+
+
+}
+#menu li a {
+        display:block;
+        color:inherit;
+        text-decoration:none;
+        padding:0 0.75rem;
+}
+#menu li a:hover {
+        text-decoration:underline;
+}
+.juego a {
+        font-weight:700;
+        color:#f4d27a;
+}
+.link-juego {
+        color:#f4d27a;
+        font-weight:600;
+}
+.link-juego:hover {
+        text-decoration:underline;
 }
 #informacion{
 	width:55%;

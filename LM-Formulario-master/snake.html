@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Italiano en el Coliseo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/snake.css">
+  </head>
+  <body>
+    <main class="game-wrapper">
+      <header class="game-header">
+        <h1>Snake Italiano en el Coliseo</h1>
+        <p>Guía a la serpiente con los cursores para que devore los cornetos mientras luce los colores de Italia.</p>
+        <nav class="game-nav">
+          <a href="Principal.html">Volver a la página principal</a>
+        </nav>
+      </header>
+      <section class="game-area">
+        <canvas id="gameCanvas" width="600" height="600" aria-label="Zona de juego del snake"></canvas>
+        <aside class="game-info">
+          <div class="scoreboard" aria-live="polite">
+            Puntuación: <span id="score">0</span>
+          </div>
+          <div class="status" id="status">¡Benvenuti! Pulsa cualquier flecha para empezar.</div>
+          <ul class="instructions">
+            <li>Come cornetos italianos para crecer.</li>
+            <li>Evita chocar contra ti mismo o contra las murallas.</li>
+            <li>Los colores verde, blanco y rojo recorren a la serpiente como la bandera italiana.</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+    <script src="js/snake.js"></script>
+  </body>
+</html>
